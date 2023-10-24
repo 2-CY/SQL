@@ -1,7 +1,5 @@
 -- Her opretter vi en database med navnet mandag24
 CREATE DATABASE IF NOT EXISTS `mandag24` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
--- 
-USE `mandag24`;
 
 -- Dette skal skrives som det første i "SQL"
 CREATE TABLE `mandag24`.`teams` (`id` SERIAL NOT NULL , `name` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
