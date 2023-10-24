@@ -1,1 +1,0 @@
-CREATE TABLE `mandag24`.`teams` (`Id` SERIAL NOT NULL , `Name` TEXT NOT NULL , PRIMARY KEY (`Id`)) ENGINE = InnoDB;
